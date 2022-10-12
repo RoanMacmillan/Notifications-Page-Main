@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <main>
+
+    <div class="card-container">
+
+      <div id="title" class="card">
+        <div class="title-child">
+          <h1>Notifications</h1><button id="noti-btn">3</button>
+        </div>
+
+        <div class="title-child">
+          <span id="mark">Mark all as read</span>
+        </div>
+      </div>
+
+      <div class="card unread">
+
+        <div class="img-child">
+
+          <img src="./images/avatar-mark-webber.webp" alt="mark">
+        </div>
+
+        <div id="test" class="content-child">
+
+          <p>Mark Webber</p>
+          <p class="action">reacted to your recent post</p> <p class="post">My first tournament today!</p><div class="notification"></div><br>
+          <span>1m ago</span>
+        </div>
+      </div>
+
+      <div class="card unread">
+
+        <div class="img-child">
+
+          <img src="./images/avatar-angela-gray.webp" alt="angela">
+        </div>
+        <div class="content-child">
+
+          <p>Angela Gray</p>
+          <p class="action">followed you</p><div class="notification"></div><br>
+          <span>5m ago</span>
+        </div>
+      </div>
+
+      <div class="card unread">
+
+        <div class="img-child">
+
+          <img src="./images/avatar-jacob-thompson.webp" alt="jacob">
+        </div>
+
+        <div class="content-child">
+
+          <p>Jacob Thompson</p>
+          <p class="action">has joined your group</p>
+          <p class="chess">Chess Club</p><div class="notification"></div><br>
+          <span>1 day ago</span>
+
+        </div>
+      </div>
+
+      <div class="card">
+
+        <div class="img-child">
+
+          <img src="./images/avatar-rizky-hasanuddin.webp" alt="rizky">
+        </div>
+        <div class="rizky-child">
+
+          <p id="riz-p">Rizky Hasanuddin</p>
+          <p class="action">sent you a private message</p><br>
+          <span>5 days ago</span><br>
+          <div id="comment">
+          <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+            I'm already having lots of fun and improving my game.</p>
+            </div>
+        </div>
+      </div>
+
+      <div id="lol" class="card">
+
+        <div class="img-child">
+
+          <img src="./images/avatar-kimberly-smith.webp" alt="kimberly">
+        </div>
+
+        <div class="content-child">
+
+          <p>Kimberly Smith</p>
+          <p class="action">commented on your picture</p><br>
+
+          <span>1 week ago</span>
+
+          
+
+        </div>
+
+        <div class='chess-child'>
+            
+          <img src="./images/image-chess.webp" alt="chess">
+
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="img-child">
+
+          <img src="./images/avatar-nathan-peterson.webp" alt="nathan">
+        </div>
+        <div class="content-child">
+
+          <p>Nathan Peterson</p>
+          <p class="action">reacted to your recent post</p>
+          <p class="post">5 end-game strategies to increase your win rate</p><br>
+          <span>2 weeks ago</span>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <div class="img-child">
+
+          <img src="./images/avatar-anna-kim.webp" alt="anna">
+        </div>
+        <div class="content-child">
+
+          <p>Anna Kim</p>
+            <p class="action">left the group</p> <p class="chess">Chess Club</p><br>
+          <span>2 weeks ago</span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>

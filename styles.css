@@ -1,0 +1,275 @@
+body {
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+
+main {
+
+    height: 100vh;
+    margin: 0;
+    
+}
+
+h1 {
+
+    font-size: 1.3em;
+
+}
+
+button {
+
+    padding: 2px 12px 2px 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-left: 10px;
+    
+}
+
+#title {
+
+    padding: 0;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.title-child {
+
+    display: flex;
+    align-items: center;
+}
+.card-container {
+    margin: 0 auto;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    gap: 15px;
+    padding-bottom: 35px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+img {
+
+    width: 45px;
+    cursor: pointer;
+}
+
+.card {
+
+    display: flex;
+    margin-left: 17px;
+    margin-right: 17px;
+    gap: 15px;
+    padding: 17px;
+    
+}
+
+h1 {
+
+    margin: 0;
+}
+
+p {
+
+    margin: 0;
+}
+
+p, span {
+
+    font-size: .95em;
+}
+
+.unread {
+
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-child span {
+
+    line-height: 25px;
+    color: hsl(219, 14%, 63%);
+}
+
+.rizky-child span {
+    line-height: 25px;
+    color: hsl(219, 14%, 63%);
+
+}
+
+.card p {
+
+    display: inline;
+    
+}
+
+#comment {
+
+    outline: 1px solid hsl(205, 33%, 90%);
+    border-radius: 5px;
+    padding: 15px 15px 20px 15px;
+    margin-top: 10px;
+    color: hsl(219, 12%, 42%);
+    font-size: .95em;
+}
+
+#comment:hover {
+
+
+    color: hsl(219, 85%, 26%);
+    background-color: aliceblue;
+    outline:none;
+    cursor: pointer;
+}
+
+.content-child p:first-of-type {
+
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    margin-right: 4px;
+    
+}
+
+.content-child p:first-of-type:hover {
+
+    color:hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.chess {
+
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.action {
+
+    color: hsl(219, 12%, 42%);
+}
+
+
+#riz-p {
+
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    margin-right: 4px;
+
+}
+
+#riz-p:hover {
+
+    color:hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.post {
+
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+
+}
+
+.post:hover {
+    color:hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+
+
+#mark {
+    color: hsl(219, 12%, 42%);
+    
+}
+
+#mark:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+
+.unread .notification {
+    
+    content: "";
+    width: 8px;
+    color: red;
+    background-color: red;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 8px;
+    
+    
+}
+
+.notification {
+
+    display: inline-flex;
+}
+
+.active {
+
+    background-color: white;
+}
+
+.remove {
+
+    display: none;
+}
+
+
+/* Media queries */
+
+/* Desktop Styles */
+
+
+@media screen and (min-width: 890px) {
+
+
+    #lol {
+
+        position: relative;
+    }
+
+    .chess-child {
+
+        position: absolute;
+        right: 15px;
+    }
+
+   main {
+
+    display: flex;
+    align-items: center;
+   }
+
+.card-container {
+
+    padding-bottom: 0;
+    width: 680px;
+    transition: ease-in-out .5s;
+    
+}
+
+.card {
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+}
